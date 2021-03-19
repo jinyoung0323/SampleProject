@@ -34,7 +34,7 @@ public class StringTest {
 //		System.out.println(str.toUpperCase());
 		
 		
-		// str ³»¿ë Áß °ø¹é(" ")À» "," ·Î º¯°æÇÏ´Â ÄÚµå ÀÛ¼º.
+		// str ë‚´ìš© ì¤‘ ê³µë°±(" ")ì„ "," ë¡œ ë³€ê²½í•˜ëŠ” ì½”ë“œ ì‘ì„±.
 //		String str = "apple mango banana";
 //		String s = "APPLE MANGO BANANA";
 //		System.out.println(str.replace(" ", ","));

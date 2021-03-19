@@ -29,9 +29,9 @@ public class Friend {
 		this.school = school;
 	}
 	public void showAllFriend() {
-		System.out.print("ÀÌ¸§ : " + this.getName());
-		System.out.print(", ÇÚµåÆù : " + this.getNumber());
-		System.out.print(", ÇĞ±³ : " + this.getSchool());
+		System.out.print("ì´ë¦„ : " + this.getName());
+		System.out.print(", í•¸ë“œí° : " + this.getNumber());
+		System.out.print(", í•™êµ : " + this.getSchool());
 		System.out.println();
 	}
 	

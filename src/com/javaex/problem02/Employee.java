@@ -24,6 +24,6 @@ public class Employee {
 	}
 	
 	public void getInformation() {
-		System.out.println("¿Ã∏ß : " + this.name + ", ø¨∫¿ : " + this.salary);
+		System.out.println("Ïù¥Î¶Ñ : " + this.name + ", Ïó∞Î¥â : " + this.salary);
 	}
 }

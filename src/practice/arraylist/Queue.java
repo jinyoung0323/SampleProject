@@ -9,7 +9,7 @@ public class Queue {
 	public String deQueue() {
 		int len = arrayListQueue.size();
 		if(len == 0) {
-			System.out.println("Å¥°¡ ºñ¾ú½À´Ï´Ù.");
+			System.out.println("íê°€ ë¹„ì—ˆìŠµë‹ˆë‹¤.");
 			return null;
 		}
 		return arrayListQueue.remove(0);

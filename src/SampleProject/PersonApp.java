@@ -3,11 +3,11 @@ package SampleProject;
 public class PersonApp {
 
 	public static void main(String[] args) {
-		Person p = new Person("Á¤¿ì¼º", 45);
+		Person p = new Person("ì •ìš°ì„±", 45);
 		p.showInfo();
-		Student2 s1 = new Student2("¼­¿ï°íµîÇĞ±³");
+		Student2 s1 = new Student2("ì„œìš¸ê³ ë“±í•™êµ");
 		s1.showInfo();
-		Student2 s2 = new Student2("ÀÌÁ¤Àç", 45, "ÇÑ±¹°íµîÇĞ±³");
+		Student2 s2 = new Student2("ì´ì •ì¬", 45, "í•œêµ­ê³ ë“±í•™êµ");
 		s2.showInfo();
 		
 	}

@@ -6,7 +6,7 @@ public class Person {
 	
 	public Person() {}
 	public Person(String name, int age) {
-		System.out.println("Person Å¬·¡½º »ı¼ºÀÚ È£ÃâµÊ!!");
+		System.out.println("Person í´ë˜ìŠ¤ ìƒì„±ì í˜¸ì¶œë¨!!");
 		this.name = name;
 		this.age = age;
 	}
@@ -24,8 +24,8 @@ public class Person {
 	}
 	
 	public void showInfo() {
-		System.out.println("ÀÌ¸§ : " + this.getName());
-		System.out.println("³ªÀÌ : " + this.getAge());
+		System.out.println("ì´ë¦„ : " + this.getName());
+		System.out.println("ë‚˜ì´ : " + this.getAge());
 		System.out.println();
 	}
 }

@@ -8,7 +8,7 @@ public class OutputStreamEx {
 	public static void main(String[] args) {
 		try {
 			OutputStream output = new FileOutputStream("D:\\workspace2\\SampleProjects\\output.txt");
-			String str = "¿À´ÃÀº 2021³â 2¿ù 25ÀÏ ÀÔ´Ï´Ù.";
+			String str = "ì˜¤ëŠ˜ì€ 2021ë…„ 2ì›” 25ì¼ ì…ë‹ˆë‹¤.";
 			byte[] by = str.getBytes();
 			output.write(by);
 		} catch(Exception e) {

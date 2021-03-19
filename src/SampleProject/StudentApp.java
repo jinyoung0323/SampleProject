@@ -2,14 +2,14 @@ package SampleProject;
 public class StudentApp {
 
 	public static void main(String[] args) {
-//		Student s1 = new Student("200101", "È«±æµ¿", "³²ÀÚ", 3.85);
-//		Student s2 = new Student("200102", "È«±æ¼ø", "¿©ÀÚ", 3.45);
+//		Student s1 = new Student("200101", "í™ê¸¸ë™", "ë‚¨ì", 3.85);
+//		Student s2 = new Student("200102", "í™ê¸¸ìˆœ", "ì—¬ì", 3.45);
 //		s2.show();
 //		
 //		String[] s = new String[3];
 		Student[] studentArr = new Student[5];
 		for(int i = 0; i < studentArr.length; i++) {
-			studentArr[i] = new Student("200101", "È«±æµ¿", "³²ÀÚ", (i + 10));
+			studentArr[i] = new Student("200101", "í™ê¸¸ë™", "ë‚¨ì", (i + 10));
 		}
 		for(int i = 0; i < studentArr.length; i++) {
 			System.out.println("------------------------");

@@ -11,7 +11,7 @@ public class BufferedOutputStreamEx {
 		try {
 			bs = new BufferedOutputStream(new FileOutputStream("D:\\workspace2\\SampleProjects\\output.txt"));
 			
-			String str = "¿À´Ã ³¯¾¾´Â ¾ÆÁÖ ÁÁ½À´Ï´Ù.";
+			String str = "ì˜¤ëŠ˜ ë‚ ì”¨ëŠ” ì•„ì£¼ ì¢‹ìŠµë‹ˆë‹¤.";
 			bs.write(str.getBytes());
 		} catch(Exception e) {
 			e.getStackTrace();

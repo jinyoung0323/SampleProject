@@ -5,7 +5,7 @@ public class PhoneApp {
 	public static void main(String[] args) {
 		TelePhone telePhone = new TelePhone("010-1234-1234");
 		telePhone.power(true);
-		telePhone.call("010-4321-4321");	// »ó´ë¹æ ÀüÈ­¹øÈ£
+		telePhone.call("010-4321-4321");	// ìƒëŒ€ë°© ì „í™”ë²ˆí˜¸
 		
 		System.out.println("============================");
 		SmartPhone smartPhone = new SmartPhone("010-3456-3456");

@@ -10,31 +10,31 @@ public class AccountApp {
         while(run){
             System.out.println("");
             System.out.println("----------------------------");
-            System.out.println("1.¿¹±Ý | 2.Ãâ±Ý | 3.ÀÜ°í |4.Á¾·á");
+            System.out.println("1.ì˜ˆê¸ˆ | 2.ì¶œê¸ˆ | 3.ìž”ê³  |4.ì¢…ë£Œ");
             System.out.println("----------------------------");
-            System.out.print("¼±ÅÃ>");
+            System.out.print("ì„ íƒ>");
             int menuNo = sc.nextInt();
             switch(menuNo){
                 case 1:
-                    System.out.print("¿¹±Ý¾×>");
+                    System.out.print("ì˜ˆê¸ˆì•¡>");
                     money = sc.nextInt();
                     account.deposit(money);
                     break;
                 case 2:
-                    System.out.print("Ãâ±Ý¾×>");
+                    System.out.print("ì¶œê¸ˆì•¡>");
                     money= sc.nextInt();
                     account.withdraw(money);
                     break;
                 case 3:
-                    System.out.print("ÀÜ°í¾×>");
+                    System.out.print("ìž”ê³ ì•¡>");
                     account.showBalance();
                     break;
                 case 4:
-                    System.out.print("ÇÁ·Î±×·¥ Á¾·á");
+                    System.out.print("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
                     run = false;
                     break;
                 default :
-                    System.out.println("´Ù½ÃÀÔ·ÂÇØÁÖ¼¼¿ä");
+                    System.out.println("ë‹¤ì‹œìž…ë ¥í•´ì£¼ì„¸ìš”");
                     break;
             }//switch
         }//while

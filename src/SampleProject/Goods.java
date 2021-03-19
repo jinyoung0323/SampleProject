@@ -22,7 +22,7 @@ public class Goods {
 	}
 	public void setPrice(int price) {
 		if(price <= 0) {
-			System.out.println("°¡°ÝÀ» 0ÀÌÇÏ·Î ¼¼ÆÃÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("ê°€ê²©ì„ 0ì´í•˜ë¡œ ì„¸íŒ…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		} else {			
 			this.price = price;
 		}
@@ -31,9 +31,8 @@ public class Goods {
 		return price;
 	}
 	public void showInfo() {
-		System.out.println("»óÇ°ÀÌ¸§ : " + this.getName());
-		System.out.println("°¡°Ý : " + this.getPrice());
+		System.out.println("ìƒí’ˆì´ë¦„ : " + this.getName());
+		System.out.println("ê°€ê²© : " + this.getPrice());
 		System.out.println();
 	}
 }
-

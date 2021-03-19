@@ -22,6 +22,6 @@ public class Depart extends Employee {
 	}
 	@Override
 	public void getInformation() {
-		System.out.println("¿Ã∏ß : " + super.getName() + ", ø¨∫¿ : " + super.getSalary() + ", ∫Œº≠ : " + this.getDepart());
+		System.out.println("Ïù¥Î¶Ñ : " + super.getName() + ", Ïó∞Î¥â : " + super.getSalary() + ", Î∂ÄÏÑú : " + this.getDepart());
 	}
 }

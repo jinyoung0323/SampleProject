@@ -5,7 +5,7 @@ package SampleProject;
 public class Point2App {
 
 	public static void main(String[] args) {
-		Point2 a = new Point2(2, 3);	// a´Â ¸¸µé¾îÁø °´Ã¼ÀÇ ÁÖ¼Ò
+		Point2 a = new Point2(2, 3);	// aëŠ” ë§Œë“¤ì–´ì§„ ê°ì²´ì˜ ì£¼ì†Œ
 		Point2 b = a;
 		System.out.println(a.hashCode());
 		System.out.println(b.hashCode());

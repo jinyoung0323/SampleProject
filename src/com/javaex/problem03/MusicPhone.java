@@ -2,13 +2,13 @@ package com.javaex.problem03;
 
 public class MusicPhone extends Phone {
 	public void execute(String str) {
-		if("À½¾Ç".equals(str)) {
+		if("ìŒì•…".equals(str)) {
 			playMusic();
 		} else {
 			super.execute(str);
 		}
 	}
 	protected void playMusic() {
-		System.out.println("MP3 ÇÃ·¹ÀÌ¾î¿¡¼­ À½¾ÇÀç»ı");
+		System.out.println("MP3 í”Œë ˆì´ì–´ì—ì„œ ìŒì•…ì¬ìƒ");
 	}
 }

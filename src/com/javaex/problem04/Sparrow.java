@@ -3,12 +3,12 @@ package com.javaex.problem04;
 public class Sparrow extends Bird {
 	
 	public void sing() {
-		System.out.println("Âü»õ(" + super.getName() + ")°¡ ¼Ò¸®³»¾î ¿ó´Ï´Ù.");
+		System.out.println("ì°¸ìƒˆ(" + super.getName() + ")ê°€ ì†Œë¦¬ë‚´ì–´ ì›ë‹ˆë‹¤.");
 	}
 	public void fly() {
-		System.out.println("Âü»õ(" + super.getName() + ")°¡ ³¯¾Æ ´Ù´Õ´Ï´Ù.");
+		System.out.println("ì°¸ìƒˆ(" + super.getName() + ")ê°€ ë‚ ì•„ ë‹¤ë‹™ë‹ˆë‹¤.");
 	}
 	public void showName() {
-		System.out.println("Âü»õÀÇ ÀÌ¸§Àº " + super.getName() + " ÀÔ´Ï´Ù.");
+		System.out.println("ì°¸ìƒˆì˜ ì´ë¦„ì€ " + super.getName() + " ì…ë‹ˆë‹¤.");
 	}
 }

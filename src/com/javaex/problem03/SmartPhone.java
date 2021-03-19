@@ -2,18 +2,18 @@ package com.javaex.problem03;
 
 public class SmartPhone extends MusicPhone {
 	public void execute(String str) {
-		if("À½¾Ç".equals(str)) {
+		if("ìŒì•…".equals(str)) {
 			playMusic();
-		} else if("¾Û".equals(str)) {
+		} else if("ì•±".equals(str)) {
 			playApp();
 		} else {
 			super.execute(str);
 		}
 	}
 	protected void playMusic() {
-		System.out.println("´Ù¿î·ÎµåÇØ¼­ À½¾ÇÀç»ı");
+		System.out.println("ë‹¤ìš´ë¡œë“œí•´ì„œ ìŒì•…ì¬ìƒ");
 	}
 	protected void playApp() {
-		System.out.println("¾Û½ÇÇà");
+		System.out.println("ì•±ì‹¤í–‰");
 	}
 }

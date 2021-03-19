@@ -38,9 +38,9 @@ public class Friend {
 	}
 	public void show() {
 		System.out.println("-------------------------------------------------");
-		System.out.print("ÀÌ¸§ : " + this.getName() + "\t");
-		System.out.print("ÇÚµåÆù : " + this.getPhoneNumber() + "\t");
-		System.out.print("ÇĞ±³ : " + this.getSchool());
+		System.out.print("ì´ë¦„ : " + this.getName() + "\t");
+		System.out.print("í•¸ë“œí° : " + this.getPhoneNumber() + "\t");
+		System.out.print("í•™êµ : " + this.getSchool());
 		System.out.println();
 	}
 	

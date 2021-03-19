@@ -4,14 +4,14 @@ public class Student2 extends Person {
 	private String schoolName;
 	public Student2() {}
 	public Student2(String schoolName) {
-		System.out.println("Student2 Å¬·¡½º »ı¼ºÀÚ È£ÃâµÊ!!");
+		System.out.println("Student2 í´ë˜ìŠ¤ ìƒì„±ì í˜¸ì¶œë¨!!");
 		this.schoolName = schoolName;
 	}
 	public Student2(String name, int age, String schoolName) {
 //		super.setName(name);
 //		super.setAge(age);
 		super(name, age);
-		System.out.println("Student2 Å¬·¡½º »ı¼ºÀÚ È£ÃâµÊ!!");
+		System.out.println("Student2 í´ë˜ìŠ¤ ìƒì„±ì í˜¸ì¶œë¨!!");
 		this.schoolName = schoolName;
 	}
 	public String getSchoolName() {
@@ -22,9 +22,9 @@ public class Student2 extends Person {
 	}
 	
 	public void showInfo() {
-		System.out.println("ÀÌ¸§ : " + super.getName());
-		System.out.println("³ªÀÌ : " + super.getAge());
-		System.out.println("ÇĞ±³ : " + this.getSchoolName());
+		System.out.println("ì´ë¦„ : " + super.getName());
+		System.out.println("ë‚˜ì´ : " + super.getAge());
+		System.out.println("í•™êµ : " + this.getSchoolName());
 		System.out.println();
 	}
 }

@@ -11,7 +11,7 @@ public class FileCopyTest {
 		
 		try(FileInputStream fis = new FileInputStream("a.zip");
 			FileOutputStream fos = new FileOutputStream("copy.zip")) {
-			// ÆÄÀÏ º¹»ç ½ÃÀÛÇÏ±â Àü ½Ã°£
+			// íŒŒì¼ ë³µì‚¬ ì‹œì‘í•˜ê¸° ì „ ì‹œê°„
 			millisecond = System.currentTimeMillis();
 			int i;
 			while((i = fis.read()) != -1) {
@@ -21,7 +21,7 @@ public class FileCopyTest {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("ÆÄÀÏ º¹»çÇÏ´Â µ¥ " + millisecond + "ms ¼Ò¿äµÇ¾ú½À´Ï´Ù.");
+		System.out.println("íŒŒì¼ ë³µì‚¬í•˜ëŠ” ë° " + millisecond + "ms ì†Œìš”ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }

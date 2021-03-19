@@ -7,7 +7,7 @@ public class StringUtilApp {
 		Scanner scanner = new Scanner(System.in);    
    
 		String[] strArray = new String[3];
-		System.out.println("¹®ÀÚÀÔ·Â : ");
+		System.out.println("ë¬¸ìì…ë ¥ : ");
 		for(int i = 0; i < strArray.length; i++) {
 			strArray[i] = scanner.nextLine();
 		}
@@ -18,7 +18,7 @@ public class StringUtilApp {
         String resultStr = StringUtil.concatString(strArray);
         
         
-        System.out.println("°á°ú ¹®ÀÚ¿­:" + resultStr);
+        System.out.println("ê²°ê³¼ ë¬¸ìì—´:" + resultStr);
         
 	}
 

@@ -3,7 +3,7 @@ package com.javaex.problem02;
 public class EmployeeApp {
 
 	public static void main(String[] args) {
-		Employee pt = new Depart("È«±æµ¿", 5000, "°³¹ßºÎ");
+		Employee pt = new Depart("í™ê¸¸ë™", 5000, "ê°œë°œë¶€");
 		pt.getInformation();
 	}
 

@@ -1,3 +1,5 @@
+
+
 package practice.set;
 
 import practice.Member;
@@ -5,7 +7,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class MemberHashSet {
-	private HashSet<Member> hashSet;	// HashSet¼±¾ğ
+	private HashSet<Member> hashSet;	// HashSetì„ ì–¸
 	public MemberHashSet() {
 		hashSet = new HashSet<Member>();
 	}
@@ -17,11 +19,11 @@ public class MemberHashSet {
 		while(it.hasNext()) {
 			Member member = it.next();
 			if(member.getMemberId() == memberId) {
-				hashSet.remove(member);	// È¸¿ø»èÁ¦
+				hashSet.remove(member);	// íšŒì›ì‚­ì œ
 				return true;
 			}
 		}
-		System.out.println(memberId + "°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId + "ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		return false;
 	}
 	public void showAllMember() {

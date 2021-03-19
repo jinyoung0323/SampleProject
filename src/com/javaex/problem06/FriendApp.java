@@ -6,7 +6,7 @@ public class FriendApp {
 		Scanner sc = new Scanner(System.in);
 		
 		Friend[] friends = new Friend[3];
-		System.out.println("Ä£±¸¸¦ 3¸í µî·ÏÇØÁÖ¼¼¿ä.");
+		System.out.println("ì¹œêµ¬ë¥¼ 3ëª… ë“±ë¡í•´ì£¼ì„¸ìš”.");
 		
 		
 		

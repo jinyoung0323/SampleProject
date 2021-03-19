@@ -4,13 +4,13 @@ public class StudentArrayListTest {
 
 	public static void main(String[] args) {
 		Student s1 = new Student(1001, "Kim");
-		s1.addSubject("±¹¾î", 80);
-		s1.addSubject("¼öÇĞ", 100);
+		s1.addSubject("êµ­ì–´", 80);
+		s1.addSubject("ìˆ˜í•™", 100);
 		
 		Student s2 = new Student(1002, "Lee");
-		s2.addSubject("±¹¾î", 90);
-		s2.addSubject("¼öÇĞ", 80);
-		s2.addSubject("¿µ¾î", 70);
+		s2.addSubject("êµ­ì–´", 90);
+		s2.addSubject("ìˆ˜í•™", 80);
+		s2.addSubject("ì˜ì–´", 70);
 		
 		s1.showStudentInfo();
 		System.out.println("======================================");

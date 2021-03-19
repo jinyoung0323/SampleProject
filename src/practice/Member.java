@@ -24,7 +24,7 @@ public class Member implements Comparable<Member> {
 	}
 	@Override
 	public String toString() {
-		return memberName + " È¸¿ø´ÔÀÇ ¾ÆÀÌµğ´Â " + memberId + "ÀÔ´Ï´Ù.";
+		return memberName + " íšŒì›ë‹˜ì˜ ì•„ì´ë””ëŠ” " + memberId + "ì…ë‹ˆë‹¤.";
 	}
 	@Override
 	public int compareTo(Member member) {

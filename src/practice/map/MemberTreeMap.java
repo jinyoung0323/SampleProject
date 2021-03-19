@@ -16,7 +16,7 @@ public class MemberTreeMap {
 			treeMap.remove(memberId);
 			return true;
 		}
-		System.out.println(memberId + "°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId + "ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		return false;
 	}
 	public void showAllMember() {

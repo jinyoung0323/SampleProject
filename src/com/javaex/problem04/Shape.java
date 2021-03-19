@@ -1,7 +1,7 @@
 package com.javaex.problem04;
 
 public abstract class Shape {
-	private int countSides;		// º¯ÀÇ ¼ö
+	private int countSides;		// ë³€ì˜ ìˆ˜
 	
 	public Shape(int countSides) {
 		this.countSides = countSides;
@@ -9,6 +9,6 @@ public abstract class Shape {
 	public int getCountSides() {
 		return countSides;
 	}
-	public abstract double getArea();	// ³ĞÀÌ
-	public abstract double getPerimeter();	// µÑ·¹±æÀÌ
+	public abstract double getArea();	// ë„“ì´
+	public abstract double getPerimeter();	// ë‘˜ë ˆê¸¸ì´
 }

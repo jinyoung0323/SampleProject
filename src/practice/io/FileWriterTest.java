@@ -11,13 +11,13 @@ public class FileWriterTest {
 			char[] buf = {'B', 'C', 'D', 'E', 'F', 'G'};
 			
 			fw.write(buf);
-			fw.write("¾È³çÇÏ¼¼¿ä, Àß ½áÁö³×¿ä!!!");
+			fw.write("ì•ˆë…•í•˜ì„¸ìš”, ì˜ ì¨ì§€ë„¤ìš”!!!");
 			fw.write(buf, 1, 2);
 			fw.write("65");
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }

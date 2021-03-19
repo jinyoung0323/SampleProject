@@ -17,15 +17,15 @@ public class TelePhone extends Phone {
 	}
 	public void power(boolean b) {
 		if(b) {			
-			System.out.println("Àü¿ø On...");
+			System.out.println("ì „ì› On...");
 		} else {
-			System.out.println("Àü¿ø Off...");
+			System.out.println("ì „ì› Off...");
 		}
 	}
 	@Override
 	public void call(String number) {
-		System.out.println("³ªÀÇ ÀüÈ­¹øÈ£ : " + this.number);
-		System.out.println("»ó´ë¹æ ÀüÈ­¹øÈ£ : " + number + "·Î ÀüÈ­¸¦ °Ì´Ï´Ù.");
+		System.out.println("ë‚˜ì˜ ì „í™”ë²ˆí˜¸ : " + this.number);
+		System.out.println("ìƒëŒ€ë°© ì „í™”ë²ˆí˜¸ : " + number + "ë¡œ ì „í™”ë¥¼ ê²ë‹ˆë‹¤.");
 	}
 	
 }

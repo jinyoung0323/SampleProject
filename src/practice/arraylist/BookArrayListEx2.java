@@ -9,7 +9,7 @@ public class BookArrayListEx2 {
 		ArrayList<Book> library = new ArrayList<Book>();
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Ã¥°ú ÀÛ°¡¸¦ 4°³¾¿ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì±…ê³¼ ìž‘ê°€ë¥¼ 4ê°œì”© ìž…ë ¥í•˜ì„¸ìš”.");
 		for(int i = 0; i < 4; i++) {
 			String s = sc.nextLine();
 			String[] sArr = s.split(",");

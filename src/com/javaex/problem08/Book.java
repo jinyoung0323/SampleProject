@@ -1,10 +1,10 @@
 package com.javaex.problem08;
 
 public class Book {
-	private int 	bookNo;			// ¹øÈ£
-	private String 	title;			// Á¦¸ñ
-	private String 	author;			// ÀÛ°¡
-	private int 	stateCode;	// »óÅÂÄÚµå(´ë¿©À¯¹«)
+	private int 	bookNo;			// ë²ˆí˜¸
+	private String 	title;			// ì œëª©
+	private String 	author;			// ì‘ê°€
+	private int 	stateCode;	// ìƒíƒœì½”ë“œ(ëŒ€ì—¬ìœ ë¬´)
 	
 	public Book(int bookNo, String title, String author) {
 		super();
@@ -42,23 +42,23 @@ public class Book {
 	public void rent() {
 		if(this.stateCode == 1) {
 			this.stateCode--;
-			System.out.println(this.getTitle() + "ÀÌ(°¡) ´ë¿© µÆ½À´Ï´Ù.");
+			System.out.println(this.getTitle() + "ì´(ê°€) ëŒ€ì—¬ ëìŠµë‹ˆë‹¤.");
 		} else if(this.stateCode == 0) {
-			System.out.println(this.getTitle() + "ÀÌ(°¡) ´ë¿©Áß ÀÔ´Ï´Ù.");
+			System.out.println(this.getTitle() + "ì´(ê°€) ëŒ€ì—¬ì¤‘ ì…ë‹ˆë‹¤.");
 		}
 	}
 	public void returnBook() {
 		if(this.stateCode == 0) {
 			this.stateCode++;
-			System.out.println(this.getTitle() + "ÀÌ(°¡) ¹İ³³ µÆ½À´Ï´Ù.");
+			System.out.println(this.getTitle() + "ì´(ê°€) ë°˜ë‚© ëìŠµë‹ˆë‹¤.");
 		} else if(this.stateCode == 1) {
-			System.out.println(this.getTitle() + "Àº(´Â) ¹İ³³´ë»óÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(this.getTitle() + "ì€(ëŠ”) ë°˜ë‚©ëŒ€ìƒì´ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 	public void print() {
-		System.out.println(this.bookNo + " Ã¥Á¦¸ñ : "
-						 + this.title + "\tÀúÀÚ : "
-						 + this.author + "\t´ë¿©À¯¹« : "
-						 + ((this.stateCode == 0) ? "´ë¿©Áß" : "Àç°íÀÖÀ½"));
+		System.out.println(this.bookNo + " ì±…ì œëª© : "
+						 + this.title + "\tì €ì : "
+						 + this.author + "\tëŒ€ì—¬ìœ ë¬´ : "
+						 + ((this.stateCode == 0) ? "ëŒ€ì—¬ì¤‘" : "ì¬ê³ ìˆìŒ"));
 	}
 }

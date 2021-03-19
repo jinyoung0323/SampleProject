@@ -19,18 +19,18 @@ public class SmartPhone extends Phone {
 	@Override
 	public void call(String number) {
 		if(this.power) {
-			System.out.println("³ªÀÇ ÀüÈ­¹øÈ£ : " + this.number);
-			System.out.println("»ó´ë¹æ ÀüÈ­¹øÈ£ : " + number + "·Î ÀüÈ­¸¦ °Ì´Ï´Ù.");
+			System.out.println("ë‚˜ì˜ ì „í™”ë²ˆí˜¸ : " + this.number);
+			System.out.println("ìƒëŒ€ë°© ì „í™”ë²ˆí˜¸ : " + number + "ë¡œ ì „í™”ë¥¼ ê²ë‹ˆë‹¤.");
 		} else {
-			System.out.println("Àü¿øÀÌ ²¨Á® ÀÖ½À´Ï´Ù.");
+			System.out.println("ì „ì›ì´ êº¼ì ¸ ìˆìŠµë‹ˆë‹¤.");
 		}
 		
 	}
 	public void searchInternet(String url) {
 		if(this.power) {
-			System.out.println("ºê¶ó¿ìÀú¸¦ ¿­°í " + url + "·Î ÀÌµ¿ÇÕ´Ï´Ù.");
+			System.out.println("ë¸Œë¼ìš°ì €ë¥¼ ì—´ê³  " + url + "ë¡œ ì´ë™í•©ë‹ˆë‹¤.");
 		} else {
-			System.out.println("Àü¿øÀÌ ²¨Á® ÀÖ½À´Ï´Ù.");
+			System.out.println("ì „ì›ì´ êº¼ì ¸ ìˆìŠµë‹ˆë‹¤.");
 		}
 	}
 }

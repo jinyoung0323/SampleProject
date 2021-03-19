@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class InputStreamReaderTest {
 
 	public static void main(String[] args) {
-		// º¸Á¶½ºÆ®¸²ÀÎ InputStreamReaderÀÇ ¸Å°³º¯¼ö·Î ±â¹İ½ºÆ®¸²ÀÎ FileInputStreamÀ» ¹Ş¾Æ »ı¼ºÇÔ.
+		// ë³´ì¡°ìŠ¤íŠ¸ë¦¼ì¸ InputStreamReaderì˜ ë§¤ê°œë³€ìˆ˜ë¡œ ê¸°ë°˜ìŠ¤íŠ¸ë¦¼ì¸ FileInputStreamì„ ë°›ì•„ ìƒì„±í•¨.
 		try(InputStreamReader isr = new InputStreamReader(new FileInputStream("reader.txt"))) {
 			int i;
 			while((i = isr.read()) != -1) {

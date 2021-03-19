@@ -17,7 +17,7 @@ public class CalcApp {
 			System.out.print(">> ");
 			operand1 = sc.next();
 			if("/q".equals(operand1)) {
-				System.out.println("Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
 			operator = sc.next();
@@ -49,7 +49,7 @@ public class CalcApp {
 				System.out.println(div.calculate());
 				break;
 			default:
-				System.out.println("¾Ë ¼ö ¾ø´Â ¿¬»êÀÔ´Ï´Ù.");
+				System.out.println("ì•Œ ìˆ˜ ì—†ëŠ” ì—°ì‚°ìž…ë‹ˆë‹¤.");
 				break;
 			}
 		}

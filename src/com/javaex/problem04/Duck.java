@@ -3,12 +3,12 @@ package com.javaex.problem04;
 public class Duck extends Bird {
 	
 	public void sing() {
-		System.out.println("¿À¸®(" + super.getName() + ")°¡ ¼Ò¸®³»¾î ¿ó´Ï´Ù.");
+		System.out.println("ì˜¤ë¦¬(" + super.getName() + ")ê°€ ì†Œë¦¬ë‚´ì–´ ì›ë‹ˆë‹¤.");
 	}
 	public void fly() {
-		System.out.println("¿À¸®(" + super.getName() + ")°¡ ³¯Áö ¾Ê½À´Ï´Ù.");
+		System.out.println("ì˜¤ë¦¬(" + super.getName() + ")ê°€ ë‚ ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	}
 	public void showName() {
-		System.out.println("¿À¸®ÀÇ ÀÌ¸§Àº " + super.getName() + " ÀÔ´Ï´Ù.");
+		System.out.println("ì˜¤ë¦¬ì˜ ì´ë¦„ì€ " + super.getName() + " ì…ë‹ˆë‹¤.");
 	}
 }

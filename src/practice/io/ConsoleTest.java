@@ -7,11 +7,11 @@ public class ConsoleTest {
 	public static void main(String[] args) {
 		Console console = System.console();
 		
-		System.out.println("ÀÌ¸§ : ");
+		System.out.println("ì´ë¦„ : ");
 		String name = console.readLine();
-		System.out.println("Á÷¾÷ : ");
+		System.out.println("ì§ì—… : ");
 		String job = console.readLine();
-		System.out.println("ºñ¹Ğ¹øÈ£ : ");
+		System.out.println("ë¹„ë°€ë²ˆí˜¸ : ");
 		char[] pass = console.readPassword();
 		String strPass = new String(pass);
 		

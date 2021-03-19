@@ -12,8 +12,8 @@ public class ArrayListStreamTest {
 		slist.add("Edward");
 		slist.add("Jack");
 		
-		Stream<String> stream = slist.stream();	// ½ºÆ®¸² »ý¼º
-		// ¹è¿­ ¿ä¼Ò ÇÏ³ª¾¿ Ãâ·Â.
+		Stream<String> stream = slist.stream();	// ìŠ¤íŠ¸ë¦¼ ìƒì„±
+		// ë°°ì—´ ìš”ì†Œ í•˜ë‚˜ì”© ì¶œë ¥.
 		stream.forEach(s -> System.out.println(s + " "));
 		System.out.println();
 		

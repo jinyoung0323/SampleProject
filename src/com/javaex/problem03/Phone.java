@@ -5,6 +5,6 @@ public class Phone {
 		call();
 	}
 	private void call() {
-		System.out.println("ÅëÈ­±â´É½ÃÀÛ");
+		System.out.println("í†µí™”ê¸°ëŠ¥ì‹œì‘");
 	}
 }

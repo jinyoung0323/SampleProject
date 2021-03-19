@@ -12,11 +12,11 @@ public class CConverterApp {
         dollar = CConverter.toDoller(1000000);
         won = CConverter.toKRW(100);
         
-        //¹é¸¸¿øÀ» ´Ş·¯·Î Ãâ·Â
-        System.out.println("100¸¸¿øÀº " + dollar + "´Ş·¯ÀÔ´Ï´Ù.");
+        //ë°±ë§Œì›ì„ ë‹¬ëŸ¬ë¡œ ì¶œë ¥
+        System.out.println("100ë§Œì›ì€ " + dollar + "ë‹¬ëŸ¬ì…ë‹ˆë‹¤.");
         
-        //100´Ş·Á¸¦ ¿øÀ¸·Î Ãâ·Â
-        System.out.println("100´Ş·¯´Â " + won + "¿øÀÔ´Ï´Ù.");
+        //100ë‹¬ë ¤ë¥¼ ì›ìœ¼ë¡œ ì¶œë ¥
+        System.out.println("100ë‹¬ëŸ¬ëŠ” " + won + "ì›ì…ë‹ˆë‹¤.");
         
         
     }

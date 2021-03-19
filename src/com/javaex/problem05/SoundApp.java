@@ -3,10 +3,10 @@ package com.javaex.problem05;
 public class SoundApp {
 
 	public static void main(String[] args) {
-		printSound(new Cat());		// CatÅ¬·¡½º °´Ã¼¸¦ »ı¼º
-		printSound(new Dog());		// DogÅ¬·¡½º °´Ã¼¸¦ »ı¼º
-		printSound(new Sparrow());	// SparrowÅ¬·¡½º °´Ã¼¸¦ »ı¼º
-		printSound(new Duck());		// DuckÅ¬·¡½º °´Ã¼¸¦ »ı¼º
+		printSound(new Cat());		// Catí´ë˜ìŠ¤ ê°ì²´ë¥¼ ìƒì„±
+		printSound(new Dog());		// Dogí´ë˜ìŠ¤ ê°ì²´ë¥¼ ìƒì„±
+		printSound(new Sparrow());	// Sparrowí´ë˜ìŠ¤ ê°ì²´ë¥¼ ìƒì„±
+		printSound(new Duck());		// Duckí´ë˜ìŠ¤ ê°ì²´ë¥¼ ìƒì„±
 	}
 	public static void printSound(Soundable soundable) {
 		System.out.println(soundable.sound());

@@ -3,8 +3,8 @@ package practice.lambda;
 public class LambdaTest {
 
 	public static void main(String[] args) {
-		// ¶÷´Ù½ÄÀ» ÀÎÅÍÆäÀÌ½ºÇü º¯¼ö¿¡ ´ëÀÔÇÏ°í,
-		// ±× º¯¼ö¸¦ »ç¿ëÇØ ¶÷´Ù½Ä ±¸ÇöºÎ È£Ãâ.
+		// ëžŒë‹¤ì‹ì„ ì¸í„°íŽ˜ì´ìŠ¤í˜• ë³€ìˆ˜ì— ëŒ€ìž…í•˜ê³ ,
+		// ê·¸ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•´ ëžŒë‹¤ì‹ êµ¬í˜„ë¶€ í˜¸ì¶œ.
 		PrintString lambdaStr = s -> System.out.println(s);
 		lambdaStr.showString("Hello, lambda_1");
 		showMyString(lambdaStr);

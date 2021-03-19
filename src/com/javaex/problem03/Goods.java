@@ -30,9 +30,9 @@ public class Goods {
 		this.quantity = quantity;
 	}
 	public void showInfo() {
-		System.out.println(this.getMenu() + "(°¡°İ : " 
-						 + this.getPrice() + "¿ø)ÀÌ "
-						 + this.getQuantity() + "°³ ÀÔ°í µÇ¾ú½À´Ï´Ù.");
+		System.out.println(this.getMenu() + "(ê°€ê²© : " 
+						 + this.getPrice() + "ì›)ì´ "
+						 + this.getQuantity() + "ê°œ ì…ê³  ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 	
 }

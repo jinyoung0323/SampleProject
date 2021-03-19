@@ -12,7 +12,7 @@ public class NullPointException {
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¤»ó Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì •ìƒ ì¢…ë£Œ");
 	}
 
 }

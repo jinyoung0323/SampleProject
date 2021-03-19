@@ -7,10 +7,10 @@ public class IntArrayTest {
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 3, 4, 5};
 		
-		// sum()¿¬»êÀ¸·Î arr¹è¿­¿¡ ÀúÀåµÈ °ªÀ» ¸ğµÎ ´õÇÔ.
+		// sum()ì—°ì‚°ìœ¼ë¡œ arrë°°ì—´ì— ì €ì¥ëœ ê°’ì„ ëª¨ë‘ ë”í•¨.
 		int sumVal = Arrays.stream(arr).sum();
-		// count()¿¬»êÀ¸·Î arr¹è¿­ÀÇ ¿ä¼Ò °¹¼ö¸¦ ¹İÈ¯.
-		// count() ¹İÈ¯ °ªÀÌ longÀÌ¹Ç·Î intÇüÀ¸·Î º¯È¯
+		// count()ì—°ì‚°ìœ¼ë¡œ arrë°°ì—´ì˜ ìš”ì†Œ ê°¯ìˆ˜ë¥¼ ë°˜í™˜.
+		// count() ë°˜í™˜ ê°’ì´ longì´ë¯€ë¡œ intí˜•ìœ¼ë¡œ ë³€í™˜
 		int count = (int)Arrays.stream(arr).count();
 	
 		System.out.println(sumVal);

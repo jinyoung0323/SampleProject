@@ -9,7 +9,7 @@ public class FileInputStreamTest1 {
 		FileInputStream fis = null;
 		
 		try {
-			// input.txt ÆÄÀÏ ÀÔ·Â ½ºÆ®¸² »ı¼º.
+			// input.txt íŒŒì¼ ì…ë ¥ ìŠ¤íŠ¸ë¦¼ ìƒì„±.
 			fis = new FileInputStream("input.txt");
 			System.out.println(fis.read());
 			System.out.println(fis.read());
@@ -18,7 +18,7 @@ public class FileInputStreamTest1 {
 			System.out.println(e);
 		} finally {
 			try {
-				// ¿­¸° ½ºÆ®¸²Àº finally ºí·Ï¿¡¼­ ´İÀ½.
+				// ì—´ë¦° ìŠ¤íŠ¸ë¦¼ì€ finally ë¸”ë¡ì—ì„œ ë‹«ìŒ.
 				fis.close();
 			} catch(IOException e) {
 				System.out.println(e);

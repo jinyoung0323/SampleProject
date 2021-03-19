@@ -20,13 +20,13 @@ public class ShapeApp {
   		
   		for(int i=0; i<sArray.length; i++) {
 //  		  if(sArray[i] instanceof Triangle ) {
-//          System.out.println("»ï°¢ÇüÀÇ ¸éÀûÀº " + sArray[i].area());
+//          System.out.println("ì‚¼ê°í˜•ì˜ ë©´ì ì€ " + sArray[i].area());
 //        }
 //  		  if(sArray[i] instanceof Circle ) {
-//          System.out.println("¿øÀÇ ¸éÀûÀº " + sArray[i].area());
+//          System.out.println("ì›ì˜ ë©´ì ì€ " + sArray[i].area());
 //        }
 //  		  if(sArray[i] instanceof Rectangle ) {
-//          System.out.println("»ç°¢ÇüÀÇ ¸éÀûÀº " + sArray[i].area());
+//          System.out.println("ì‚¬ê°í˜•ì˜ ë©´ì ì€ " + sArray[i].area());
 //        }
   		}
 		
@@ -34,9 +34,9 @@ public class ShapeApp {
     	Shape[] sArray = new Shape[3];
     	
 		
-  		Shape s01 = new Rectangle("»¡°­", "»¡°­", 7, 7);
-  		Shape s02 = new Triangle("ÃÊ·Ï", "ÃÊ·Ï", 5, 5);
-  		Shape s03 = new Circle("³ë¶û", "³ë¶û", 10);
+  		Shape s01 = new Rectangle("ë¹¨ê°•", "ë¹¨ê°•", 7, 7);
+  		Shape s02 = new Triangle("ì´ˆë¡", "ì´ˆë¡", 5, 5);
+  		Shape s03 = new Circle("ë…¸ëž‘", "ë…¸ëž‘", 10);
   
   		sArray[0] = s01;
   		sArray[1] = s02;
@@ -62,16 +62,16 @@ public class ShapeApp {
       System.out.println( "Rectangle area: " +r.area());
       System.out.println( "Triangle area: " +t.area());
       
-      // °´Ã¼°¡ Circle Å¬·¡½ºÀÇ °´Ã¼ ÀÎ°¡?
+      // ê°ì²´ê°€ Circle í´ëž˜ìŠ¤ì˜ ê°ì²´ ì¸ê°€?
       System.out.println( c instanceof Circle );
 
-      // °´Ã¼°¡ Drawable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ¿´´Â°¡?
+      // ê°ì²´ê°€ Drawable ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ì˜€ëŠ”ê°€?
       System.out.println( c instanceof Drawable );
       
-      // °´Ã¼°¡ Rectangle Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º ÀÎ°¡?
+      // ê°ì²´ê°€ Rectangle í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ì¸ê°€?
       System.out.println( r instanceof Rectangle );
       
-      // °´Ã¼°¡ Shape Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º ÀÎ°¡?
+      // ê°ì²´ê°€ Shape í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ì¸ê°€?
       System.out.println( r instanceof Shape );
       
       System.out.println( r instanceof Drawable );

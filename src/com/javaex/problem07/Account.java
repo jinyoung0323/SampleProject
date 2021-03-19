@@ -5,14 +5,14 @@ public class Account {
     private String accountNo;
     private int balance;
     
-    //»ı¼ºÀÚ ÀÛ¼º
+    //ìƒì„±ì ì‘ì„±
     public Account() {}
     public Account(String accountNo) {
     	this.accountNo = accountNo;
     }
 	
     public String getAccountNo() {
-    	System.out.println(accountNo + " °èÁÂ°¡ °³¼³µÇ¾ú½À´Ï´Ù.");
+    	System.out.println(accountNo + " ê³„ì¢Œê°€ ê°œì„¤ë˜ì—ˆìŠµë‹ˆë‹¤.");
     	return accountNo;
     }
     public void setAccountNo(String accountNo) {
@@ -24,18 +24,18 @@ public class Account {
     public void setBalance(int balance) {
     	this.balance = balance;
     }
-    //ÇÊ¿äÇÑ ¸Ş¼Òµå ÀÛ¼º
+    //í•„ìš”í•œ ë©”ì†Œë“œ ì‘ì„±
     
     public void deposit(int money) {
 		if(money <= 0) {
-			System.out.println("¾ç¼ö·Î ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì–‘ìˆ˜ë¡œ ì…ë ¥í•˜ì„¸ìš”.");
 		} else {
 			this.balance += money;
 		}
 	}
 	public void withdraw(int money) {
 		if(money > this.balance) {
-			System.out.println("ÀÜ¾×ÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+			System.out.println("ì”ì•¡ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 		} else {
 			this.balance -= money;
 		}

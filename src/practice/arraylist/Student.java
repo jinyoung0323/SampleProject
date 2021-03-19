@@ -5,28 +5,28 @@ import java.util.ArrayList;
 public class Student {
 	private int studentID;
 	private String studentName;
-	ArrayList<Subject> subjectList;	// ArrayList ¼±¾ğ
+	ArrayList<Subject> subjectList;	// ArrayList ì„ ì–¸
 	
 	public Student(int studentID, String studentName) {
 		this.studentID = studentID;
 		this.studentName = studentName;
-		subjectList = new ArrayList<Subject>();	// ArrayList »ı¼º
+		subjectList = new ArrayList<Subject>();	// ArrayList ìƒì„±
 	}
-	// ÇĞ»ıÀÌ ¼ö°­ÇÏ´Â °ú¸ñÀ» subjectList ¹è¿­¿¡ ÇÏ³ª¾¿ Ãß°¡ÇÏ´Â ¸Ş¼­µå
+	// í•™ìƒì´ ìˆ˜ê°•í•˜ëŠ” ê³¼ëª©ì„ subjectList ë°°ì—´ì— í•˜ë‚˜ì”© ì¶”ê°€í•˜ëŠ” ë©”ì„œë“œ
 	public void addSubject(String name, int score) {	
-		Subject subject = new Subject();	// Subject »ı¼º
+		Subject subject = new Subject();	// Subject ìƒì„±
 		subject.setName(name);
 		subject.setScorePoint(score);
-		subjectList.add(subject);	// ¹è¿­¿¡ ÀúÀåÇÏ±â
+		subjectList.add(subject);	// ë°°ì—´ì— ì €ì¥í•˜ê¸°
 	}
 	public void showStudentInfo() {
 		int total = 0;
 		for(Subject s : subjectList) {
-			total += s.getScorePoint();	// ÃÑÁ¡ ´õÇÏ±â
-			System.out.println("ÇĞ»ı " + this.studentName + "ÀÇ " 
-							  + s.getName() + " °ú¸ñ ¼ºÀûÀº"
-							  + s.getScorePoint() + "ÀÔ´Ï´Ù.");
+			total += s.getScorePoint();	// ì´ì  ë”í•˜ê¸°
+			System.out.println("í•™ìƒ " + this.studentName + "ì˜ " 
+							  + s.getName() + " ê³¼ëª© ì„±ì ì€"
+							  + s.getScorePoint() + "ì…ë‹ˆë‹¤.");
 		}
-		System.out.println("ÇĞ»ı " + studentName + "ÀÇ ÃÑÁ¡Àº " + total + "ÀÔ´Ï´Ù.");
+		System.out.println("í•™ìƒ " + studentName + "ì˜ ì´ì ì€ " + total + "ì…ë‹ˆë‹¤.");
 	}
 }

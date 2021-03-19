@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class TravelTest {
 
 	public static void main(String[] args) {
-		TravelCustomer c1 = new TravelCustomer("ÀÌ¼ø½Å", 40, 100);
-		TravelCustomer c2 = new TravelCustomer("±èÀ¯½Å", 20, 100);
-		TravelCustomer c3 = new TravelCustomer("È«±æµ¿", 13, 50);
+		TravelCustomer c1 = new TravelCustomer("ì´ìˆœì‹ ", 40, 100);
+		TravelCustomer c2 = new TravelCustomer("ê¹€ìœ ì‹ ", 20, 100);
+		TravelCustomer c3 = new TravelCustomer("í™ê¸¸ë™", 13, 50);
 	
 		ArrayList<TravelCustomer> customerList = new ArrayList<TravelCustomer>();
 		
@@ -15,13 +15,13 @@ public class TravelTest {
 		customerList.add(c2);
 		customerList.add(c3);
 		
-		System.out.println("== °í°´ ¸í´Ü Ãß°¡µÈ ¼ø¼­´ë·Î Ãâ·Â ==");
+		System.out.println("== ê³ ê° ëª…ë‹¨ ì¶”ê°€ëœ ìˆœì„œëŒ€ë¡œ ì¶œë ¥ ==");
 		customerList.stream().map(c -> c.getName()).forEach(s -> System.out.println(s));
 		
 		int total = customerList.stream().mapToInt(c -> c.getPrice()).sum();
-		System.out.println("ÃÑ ¿©Çà ºñ¿ëÀº " + total + "ÀÔ´Ï´Ù.");
+		System.out.println("ì´ ì—¬í–‰ ë¹„ìš©ì€ " + total + "ì…ë‹ˆë‹¤.");
 		
-		System.out.println("== 20¼¼ ÀÌ»ó °í°´ ¸í´Ü Á¤·ÄÇÏ¿© Ãâ·Â ==");
+		System.out.println("== 20ì„¸ ì´ìƒ ê³ ê° ëª…ë‹¨ ì •ë ¬í•˜ì—¬ ì¶œë ¥ ==");
 		customerList.stream().filter(c -> c.getAge() >= 20).map(c -> c.getName()).sorted().forEach(s -> System.out.println(s));
 	}
 

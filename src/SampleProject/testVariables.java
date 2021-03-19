@@ -9,7 +9,7 @@ public class testVariables {
 //		alist.add("hello");
 //		alist.add("java");
 //		
-//		// Object ÀÚ·áÇü¿¡¼­ String ÀÚ·áÇüÀ¸·Î Çüº¯È¯(Casting)
+//		// Object ìë£Œí˜•ì—ì„œ String ìë£Œí˜•ìœ¼ë¡œ í˜•ë³€í™˜(Casting)
 //		String hello = (String)alist.get(0);	
 //		String java = (String)alist.get(1);
 //		

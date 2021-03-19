@@ -5,11 +5,11 @@ public class BookArrayListEx {
 	public static void main(String[] args) {
 		ArrayList<Book> library = new ArrayList<Book>();
 		
-		library.add(new Book("ÅÂ¹é»ê¸Æ", "Á¶Á¤·¡"));
-		library.add(new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼"));
-		library.add(new Book("¾î¶»°Ô »ì °ÍÀÎ°¡", "À¯½Ã¹Î"));
-		library.add(new Book("ÅäÁö", "¹Ú°æ¸®"));
-		library.add(new Book("¾î¸°¿ÕÀÚ", "»ıÅØÁãÆä¸®"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥", "ì¡°ì •ë˜"));
+		library.add(new Book("ë°ë¯¸ì•ˆ", "í—¤ë¥´ë§Œ í—¤ì„¸"));
+		library.add(new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€", "ìœ ì‹œë¯¼"));
+		library.add(new Book("í† ì§€", "ë°•ê²½ë¦¬"));
+		library.add(new Book("ì–´ë¦°ì™•ì", "ìƒí…ì¥í˜ë¦¬"));
 		
 		
 		for(int i = 0; i < library.size(); i++) {
@@ -18,7 +18,7 @@ public class BookArrayListEx {
 		}
 		System.out.println();
 		
-		System.out.println("===== Çâ»óµÈ for¹® =====");
+		System.out.println("===== í–¥ìƒëœ forë¬¸ =====");
 		for(Book book : library) {
 			book.showInfo();
 		}

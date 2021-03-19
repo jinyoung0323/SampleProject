@@ -3,7 +3,7 @@ package practice.lambda;
 public class MyNumberTest {
 
 	public static void main(String[] args) {
-		// ¶÷´Ù½ÄÀ» ÀÎÅÍÆäÀÌ½ºÇü max º¯¼ö¿¡ ´ëÀÔ
+		// ëžŒë‹¤ì‹ì„ ì¸í„°íŽ˜ì´ìŠ¤í˜• max ë³€ìˆ˜ì— ëŒ€ìž…
 		MyNumber max = (x, y) -> (x >= y) ? x : y;
 		System.out.println(max.getMax(10, 20));
 	}

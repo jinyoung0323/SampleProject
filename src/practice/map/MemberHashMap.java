@@ -18,7 +18,7 @@ public class MemberHashMap {
 			hashMap.remove(memberId);
 			return true;
 		}
-		System.out.println(memberId + "°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+		System.out.println(memberId + "ê°€ ì¡´ìž¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		return false;
 	}
 	public void showAllMember() {

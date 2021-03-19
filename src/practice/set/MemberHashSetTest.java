@@ -7,15 +7,15 @@ public class MemberHashSetTest {
 	public static void main(String[] args) {
 		MemberHashSet memberHashSet = new MemberHashSet();
 		
-		Member member1 = new Member(1001, "ÀÌÁö¿ø");
-		Member member2 = new Member(1002, "¼Õ¹Î±¹");
-		Member member3 = new Member(1003, "¹Ú¼­ÈÍ");
+		Member member1 = new Member(1001, "ì´ì§€ì›");
+		Member member2 = new Member(1002, "ì†ë¯¼êµ­");
+		Member member3 = new Member(1003, "ë°•ì„œí›¤");
 		
 		memberHashSet.addMember(member1);
 		memberHashSet.addMember(member2);
 		memberHashSet.addMember(member3);
 		
-		Member member4 = new Member(1002, "¼Õ¹Î±¹");
+		Member member4 = new Member(1002, "ì†ë¯¼êµ­");
 		memberHashSet.addMember(member4);
 		memberHashSet.showAllMember();
 	}

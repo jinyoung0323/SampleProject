@@ -34,11 +34,11 @@ public class CalcApp2 {
 					System.out.println(">> " + div.calculate());
 
 				} else {
-					System.out.println("¾Ë ¼ö ¾ø´Â ¿¬»êÀÔ´Ï´Ù.");
+					System.out.println("ì•Œ ìˆ˜ ì—†ëŠ” ì—°ì‚°ìž…ë‹ˆë‹¤.");
 
 				}
 			} else {
-				System.out.println("Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
 			

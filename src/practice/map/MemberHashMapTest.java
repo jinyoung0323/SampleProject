@@ -7,10 +7,10 @@ public class MemberHashMapTest {
 	public static void main(String[] args) {
 		MemberHashMap memberHashMap = new MemberHashMap();
 		
-		Member m1 = new Member(1001, "ÀÌÁö¿ø");
-		Member m2 = new Member(1002, "¼Õ¹Î±¹");
-		Member m3 = new Member(1003, "¹Ú¼­ÈÍ");
-		Member m4 = new Member(1004, "È«±æµ¿");
+		Member m1 = new Member(1001, "ì´ì§€ì›");
+		Member m2 = new Member(1002, "ì†ë¯¼êµ­");
+		Member m3 = new Member(1003, "ë°•ì„œí›¤");
+		Member m4 = new Member(1004, "í™ê¸¸ë™");
 		
 		memberHashMap.addMember(m1);
 		memberHashMap.addMember(m2);

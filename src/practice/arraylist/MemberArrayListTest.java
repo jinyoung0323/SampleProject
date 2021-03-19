@@ -5,11 +5,11 @@ public class MemberArrayListTest {
 	public static void main(String[] args) {
 		MemberArrayList memberArrayList = new MemberArrayList();
 		
-		// »õ·Î¿î È¸¿ø ÀÎ½ºÅÏ½º »ı¼º
-		Member member1 = new Member(1001, "ÀÌÁö¿ø");
-		Member member2 = new Member(1002, "¼Õ¹Î±¹");
-		Member member3 = new Member(1003, "¹Ú¼­Çå");
-		Member member4 = new Member(1004, "È«±æµ¿");
+		// ìƒˆë¡œìš´ íšŒì› ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+		Member member1 = new Member(1001, "ì´ì§€ì›");
+		Member member2 = new Member(1002, "ì†ë¯¼êµ­");
+		Member member3 = new Member(1003, "ë°•ì„œí—Œ");
+		Member member4 = new Member(1004, "í™ê¸¸ë™");
 		
 		memberArrayList.addMember(member1);
 		memberArrayList.addMember(member2);

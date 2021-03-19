@@ -15,7 +15,7 @@ public class BufferedStreamTest {
 			FileOutputStream fos = new FileOutputStream("copy.zip");
 				BufferedInputStream bis = new BufferedInputStream(fis);
 				BufferedOutputStream bos = new BufferedOutputStream(fos)) {
-			// ÆÄÀÏ º¹»ç ½ÃÀÛÇÏ±â Àü ½Ã°£
+			// íŒŒì¼ ë³µì‚¬ ì‹œì‘í•˜ê¸° ì „ ì‹œê°„
 			millisecond = System.currentTimeMillis();
 			int i;
 			while((i = bis.read()) != -1) {
@@ -25,7 +25,7 @@ public class BufferedStreamTest {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("ÆÄÀÏ º¹»çÇÏ´Â µ¥ " + millisecond + "ms ¼Ò¿äµÇ¾ú½À´Ï´Ù.");
+		System.out.println("íŒŒì¼ ë³µì‚¬í•˜ëŠ” ë° " + millisecond + "ms ì†Œìš”ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }

@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class ArrayListEx {
 	public static void main(String[] args) {
-		// ArrayList ÀÌ¿ë
-		// 1 ~ 20 ¼ö¸¦ arrayList¿¡ ³Ö°í,
-		// Â¦¼ö¸¸ Á¦°ÅÇÏ°í, ³ª¸ÓÁö Ãâ·Â
+		// ArrayList ì´ìš©
+		// 1 ~ 20 ìˆ˜ë¥¼ arrayListì— ë„£ê³ ,
+		// ì§ìˆ˜ë§Œ ì œê±°í•˜ê³ , ë‚˜ë¨¸ì§€ ì¶œë ¥
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for(int i = 1; i <= 20; i++) {
 			list.add(i);

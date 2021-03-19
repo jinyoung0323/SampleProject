@@ -48,10 +48,10 @@ public class Student {
 	}
 	
 	public void show() {
-		System.out.println("ÇĞ»ı¹øÈ£ : " + getStudentID());
-		System.out.println("ÇĞ»ıÀÌ¸§ : " + getStudentName());
-		System.out.println("ÇĞ»ı¼ºº° : " + getStudentGender());
-		System.out.println("ÇĞ»ıÇĞÁ¡ : " + getStudentCredit());
+		System.out.println("í•™ìƒë²ˆí˜¸ : " + getStudentID());
+		System.out.println("í•™ìƒì´ë¦„ : " + getStudentName());
+		System.out.println("í•™ìƒì„±ë³„ : " + getStudentGender());
+		System.out.println("í•™ìƒí•™ì  : " + getStudentCredit());
 	}
 	
 }

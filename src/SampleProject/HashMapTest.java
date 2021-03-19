@@ -10,33 +10,33 @@ public class HashMapTest {
 	public static void main(String[] args) {
 		HashMap<String, String> map = new HashMap<String, String>();
 	
-		map.put("apple", "»ç°ú");
-		map.put("banana", "¹Ù³ª³ª");
-		map.put("grape", "Æ÷µµ");
-		map.put("mango", "¸Á°í");
+		map.put("apple", "ì‚¬ê³¼");
+		map.put("banana", "ë°”ë‚˜ë‚˜");
+		map.put("grape", "í¬ë„");
+		map.put("mango", "ë§ê³ ");
 		System.out.println(map);
 		
 		
 		map.remove("mango");
 		System.out.println(map);
 		System.out.println(map.size());
-		// entrySet() È°¿ë
+		// entrySet() í™œìš©
 //		for(Entry<Integer, String> entry : map.entrySet()) {
 //			System.out.println("Key : " + entry.getKey() + ", Value : " + entry.getValue());
 //		}
-		// KeySet() È°¿ë
+		// KeySet() í™œìš©
 //		for(Integer i : map.keySet()) {
 //			System.out.println("Key : " + i + ", Value : " + map.get(i));
 //		}
 		
-		// entrySet().iterator() È°¿ë
+		// entrySet().iterator() í™œìš©
 		Iterator<Entry<String, String>> entries = map.entrySet().iterator();
 		while(entries.hasNext()) {
 			Map.Entry<String, String> entry = entries.next();
 			System.out.println("Key : " + entry.getKey() + ", Value : " + entry.getValue());
 		}
 		
-		// KeySet().iterator() È°¿ë
+		// KeySet().iterator() í™œìš©
 //		Iterator<Integer> keys = map.keySet().iterator();
 //		while(keys.hasNext()) {
 //			int key = keys.next();

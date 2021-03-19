@@ -24,20 +24,20 @@ public class HashSetTest {
 		setTemp.add("apple");
 		setTemp.add("banana");
 		setTemp.add("mango");
-		setTemp.add("¸á·Ğ");
-		setTemp.add("¼ö¹Ú");
+		setTemp.add("ë©œë¡ ");
+		setTemp.add("ìˆ˜ë°•");
 		setTemp.add("Water Melon");
 		
 		if(setTemp.add("banana")) {
-			System.out.println("µ¥ÀÌÅÍ ÀÔ·Â ¼º°ø");
+			System.out.println("ë°ì´í„° ì…ë ¥ ì„±ê³µ");
 		} else {
-			System.out.println("°°Àº °´Ã¼°¡ ÀÌ¹Ì ÀÖ½À´Ï´Ù.");
+			System.out.println("ê°™ì€ ê°ì²´ê°€ ì´ë¯¸ ìˆìŠµë‹ˆë‹¤.");
 		}
 		
 		if(setTemp.remove("mango")) {
-			System.out.println("µ¥ÀÌÅÍ »èÁ¦ ¼º°ø");
+			System.out.println("ë°ì´í„° ì‚­ì œ ì„±ê³µ");
 		} else {
-			System.out.println("µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ë°ì´í„°ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		}
 		
 		Iterator iter1 = setTemp.iterator();

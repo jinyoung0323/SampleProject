@@ -2,18 +2,18 @@ package com.javaex.problem01;
 
 public class MyBase extends Base {
 	public void service(String state) {
-		if("³·".equals(state)) {
+		if("ë‚®".equals(state)) {
 			day();
-		} else if("¿ÀÈÄ".equals(state)){
+		} else if("ì˜¤í›„".equals(state)){
 			afternoon();
 		} else {
 			night();
 		}
 	}
 	public void day() {
-		System.out.println("³·¿¡´Â ¿­½ÉÈ÷ ÀÏÇÏÀÚ");
+		System.out.println("ë‚®ì—ëŠ” ì—´ì‹¬íˆ ì¼í•˜ì");
 	}
 	public void afternoon() {
-		System.out.println("¿ÀÈÄµµ ³·°ú ¸¶Âù°¡Áö·Î ÀÏÇØ¾ß ÇÕ´Ï´Ù.");
+		System.out.println("ì˜¤í›„ë„ ë‚®ê³¼ ë§ˆì°¬ê°€ì§€ë¡œ ì¼í•´ì•¼ í•©ë‹ˆë‹¤.");
 	}
 }

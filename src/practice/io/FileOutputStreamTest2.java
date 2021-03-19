@@ -13,11 +13,11 @@ public class FileOutputStreamTest2 {
 				bs[i] = data;
 				data--;
 			}
-			fos.write(bs);	// ¹è¿­À» ÇÑ²¨¹ø¿¡ Ãâ·Â.
+			fos.write(bs);	// ë°°ì—´ì„ í•œêº¼ë²ˆì— ì¶œë ¥.
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 
 	}
 }

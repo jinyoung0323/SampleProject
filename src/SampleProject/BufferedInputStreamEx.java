@@ -9,7 +9,7 @@ public class BufferedInputStreamEx {
 			String filePath = "D:\\workspace2\\SampleProjects\\PhoneDB.txt";
 			FileInputStream fs = new FileInputStream(filePath);
 			
-			// ¹öÆÛ ¼±¾ğ
+			// ë²„í¼ ì„ ì–¸
 			byte[] readBuffer = new byte[fs.available()];
 			while(fs.read(readBuffer) != -1) {
 				

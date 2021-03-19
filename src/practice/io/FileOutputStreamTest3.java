@@ -17,7 +17,7 @@ public class FileOutputStreamTest3 {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 }

@@ -6,58 +6,58 @@ public class BookShop {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int num;	// Ã¥ ¹øÈ£ ÀÔ·Â
+		int num;	// ì±… ë²ˆí˜¸ ì…ë ¥
 		boolean b = true;
 		Book[] books = new Book[10];
 		
-		books[0] = new Book(1, "Æ®¿ÍÀÏ¶óÀÕ", "½ºÅ×ÆÄ´Ï¸ŞÀÌ¾î");
-		books[1] = new Book(2, "´º¹®", "½ºÅ×ÆÄ´Ï¸ŞÀÌ¾î");
-		books[2] = new Book(3, "ÀÌÅ¬¸³½º", "½ºÅ×ÆÄ´Ï¸ŞÀÌ¾î");
-		books[3] = new Book(4, "ºê·¹ÀÌÅ·´ø", "½ºÅ×ÆÄ´Ï¸ŞÀÌ¾î");
-		books[4] = new Book(5, "¾Æ¸®¶û", "Á¶Á¤·¡");
-		books[5] = new Book(6, "ÀşÀº±×µé", "±èµ¿ÀÎ");
-		books[6] = new Book(7, "¾ÆÇÁ´Ï±ñ Ã»ÃáÀÌ´Ù", "±è³­µµ");
-		books[7] = new Book(8, "±ÍÃµ", "Ãµ»óº´");
-		books[8] = new Book(9, "ÅÂ¹é»ê¸Æ", "Á¶Á¤·¡");
-		books[9] = new Book(10, "Ç®ÇÏ¿ì½º", "¿ø¼ö¿¬");
+		books[0] = new Book(1, "íŠ¸ì™€ì¼ë¼ì‡", "ìŠ¤í…ŒíŒŒë‹ˆë©”ì´ì–´");
+		books[1] = new Book(2, "ë‰´ë¬¸", "ìŠ¤í…ŒíŒŒë‹ˆë©”ì´ì–´");
+		books[2] = new Book(3, "ì´í´ë¦½ìŠ¤", "ìŠ¤í…ŒíŒŒë‹ˆë©”ì´ì–´");
+		books[3] = new Book(4, "ë¸Œë ˆì´í‚¹ë˜", "ìŠ¤í…ŒíŒŒë‹ˆë©”ì´ì–´");
+		books[4] = new Book(5, "ì•„ë¦¬ë‘", "ì¡°ì •ë˜");
+		books[5] = new Book(6, "ì Šì€ê·¸ë“¤", "ê¹€ë™ì¸");
+		books[6] = new Book(7, "ì•„í”„ë‹ˆê¹ ì²­ì¶˜ì´ë‹¤", "ê¹€ë‚œë„");
+		books[7] = new Book(8, "ê·€ì²œ", "ì²œìƒë³‘");
+		books[8] = new Book(9, "íƒœë°±ì‚°ë§¥", "ì¡°ì •ë˜");
+		books[9] = new Book(10, "í’€í•˜ìš°ìŠ¤", "ì›ìˆ˜ì—°");
 		
 		
 		while (b) {
 			System.out.println("============================");
-			System.out.println("1. ´ë¿© | 2. ¹İ³³ | 3. Á¾·á");
+			System.out.println("1. ëŒ€ì—¬ | 2. ë°˜ë‚© | 3. ì¢…ë£Œ");
 			System.out.println("============================");
-			System.out.print("¹øÈ£ÀÔ·Â : ");
+			System.out.print("ë²ˆí˜¸ì…ë ¥ : ");
 			int sw = scanner.nextInt();
 			
 			switch(sw) {
-			case 1:	// ´ë¿©
-				System.out.println("*****µµ¼­ Á¤º¸ Ãâ·ÂÇÏ±â******");
+			case 1:	// ëŒ€ì—¬
+				System.out.println("*****ë„ì„œ ì •ë³´ ì¶œë ¥í•˜ê¸°******");
 				displayBookInfo(books);
-				System.out.print("´ë¿© ÇÏ°í ½ÍÀº Ã¥ÀÇ ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+				System.out.print("ëŒ€ì—¬ í•˜ê³  ì‹¶ì€ ì±…ì˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 				num = scanner.nextInt();
 				
-				// (1) ÀÔ·ÂµÈ ¹øÈ£¿¡ ¸Â´Â Ã¥À» Ã£¾Æ ´ë¿© µÇ¾úÀ½(»óÅÂÄÚµå=0)À» Ã¼Å© ÇÕ´Ï´Ù.
+				// (1) ì…ë ¥ëœ ë²ˆí˜¸ì— ë§ëŠ” ì±…ì„ ì°¾ì•„ ëŒ€ì—¬ ë˜ì—ˆìŒ(ìƒíƒœì½”ë“œ=0)ì„ ì²´í¬ í•©ë‹ˆë‹¤.
 				for (int i = 0; i < books.length; i++) {
 					if (books[i].getBookNo() == num) {
 						books[i].rent();
 					} 
 				}
 				break;
-			case 2:	// ¹İ³³
-				System.out.println("*****µµ¼­ Á¤º¸ Ãâ·ÂÇÏ±â******");
+			case 2:	// ë°˜ë‚©
+				System.out.println("*****ë„ì„œ ì •ë³´ ì¶œë ¥í•˜ê¸°******");
 				displayBookInfo(books);
-				System.out.print("¹İ³³ ÇÏ°í ½ÍÀº Ã¥ÀÇ ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+				System.out.print("ë°˜ë‚© í•˜ê³  ì‹¶ì€ ì±…ì˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 				num = scanner.nextInt();
 				
-				// (1) ÀÔ·ÂµÈ ¹øÈ£¿¡ ¸Â´Â Ã¥À» Ã£¾Æ ´ë¿© µÇ¾úÀ½(»óÅÂÄÚµå=0)À» Ã¼Å© ÇÕ´Ï´Ù.
+				// (1) ì…ë ¥ëœ ë²ˆí˜¸ì— ë§ëŠ” ì±…ì„ ì°¾ì•„ ëŒ€ì—¬ ë˜ì—ˆìŒ(ìƒíƒœì½”ë“œ=0)ì„ ì²´í¬ í•©ë‹ˆë‹¤.
 				for (int i = 0; i < books.length; i++) {
 					if (books[i].getBookNo() == num) {
 						books[i].returnBook();
 					} 
 				}
 				break;
-			case 3:	// Á¾·á
-				System.out.println("Á¾·áÇÕ´Ï´Ù.");
+			case 3:	// ì¢…ë£Œ
+				System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				b = false;
 			default:
 				break;
@@ -67,7 +67,7 @@ public class BookShop {
 		scanner.close();
 	}
 
-	// (2)Àü´Ş¹ŞÀº ¹è¿­À» ¸ğµÎ Ãâ·ÂÇÏ´Â ¸Ş¼Òµå
+	// (2)ì „ë‹¬ë°›ì€ ë°°ì—´ì„ ëª¨ë‘ ì¶œë ¥í•˜ëŠ” ë©”ì†Œë“œ
 	private static void displayBookInfo(Book[] books) {
 		
 		for (int i = 0; i < books.length; i++) {

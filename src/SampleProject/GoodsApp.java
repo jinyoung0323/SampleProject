@@ -3,19 +3,19 @@ package SampleProject;
 public class GoodsApp {
 	public static void main(String[] args) {
 //		Goods camera = new Goods();
-//		Goods notebook = new Goods(900000, "LG╠в╥╔");
-//		Goods cup = new Goods(2000, "╦с╠вде");
+//		Goods notebook = new Goods(900000, "LGЙ╥╦К·╗");
+//		Goods cup = new Goods(2000, "К╗╦Й╥╦Л╩╣");
 //		
-//		// ╩Г╟З, ╧ыЁ╙Ё╙, ╦а╟М ╟╢ц╪
-//		Goods apple = new Goods(1000, "╩Г╟З");
-//		Goods banana = new Goods(500, "╧ыЁ╙Ё╙");
-//		Goods mango = new Goods(3000, "╦а╟М");
+//		// Л┌╛ЙЁ╪, К╟■К┌≤К┌≤, К╖²ЙЁ═ Й╟²Л╡╢
+//		Goods apple = new Goods(1000, "Л┌╛ЙЁ╪");
+//		Goods banana = new Goods(500, "К╟■К┌≤К┌≤");
+//		Goods mango = new Goods(3000, "К╖²ЙЁ═");
 	
 		Goods[] lgArr = new Goods[3];
 		Goods[] mugCup = new Goods[5];
 	
 		for(int i = 0; i < lgArr.length; i++) {
-			lgArr[i] = new Goods("LG╠в╥╔" + i, 900000 - (i * 10000));
+			lgArr[i] = new Goods("LGЙ╥╦К·╗" + i, 900000 - (i * 10000));
 		}
 		for(int i = 0; i < lgArr.length; i++) {
 			lgArr[i].showInfo();
@@ -23,7 +23,7 @@ public class GoodsApp {
 		
 		
 		for(int i = 0; i < mugCup.length; i++) {
-			mugCup[i] = new Goods("╦с╠вде" + i, 5000 + (i * 100));
+			mugCup[i] = new Goods("К╗╦Й╥╦Л╩╣" + i, 5000 + (i * 100));
 		}
 		for(int i = 0; i < mugCup.length; i++) {
 			mugCup[i].showInfo();

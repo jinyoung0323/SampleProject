@@ -30,7 +30,7 @@ public class Triangle extends Shape{
 
 	public void draw() {
 		System.out.println(
-				 " °¡·Î=" + width + " ¼¼·Î=" + height + " »ï°¢ÇüÀ» ±×·È½À´Ï´Ù.");
+				 " ê°€ë¡œ=" + width + " ì„¸ë¡œ=" + height + " ì‚¼ê°í˜•ì„ ê·¸ë ¸ìŠµë‹ˆë‹¤.");
 	}
 
 	public double area() {

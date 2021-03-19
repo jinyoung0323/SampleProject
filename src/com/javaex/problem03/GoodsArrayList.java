@@ -11,7 +11,7 @@ public class GoodsArrayList {
 		ArrayList<Goods> arrayList = new ArrayList<Goods>();
 		Scanner sc = new Scanner(System.in);
 		int sum = 0;
-		System.out.println("»óÇ° 3°³¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ìƒí’ˆ 3ê°œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		for(int i = 0; i < 3; i++) {
 			String menu = sc.nextLine();
 			String[] sArr = menu.split(" ");
@@ -28,7 +28,7 @@ public class GoodsArrayList {
 			goods.showInfo();
 			sum += goods.getQuantity();
 		}
-		System.out.println("¸ğµç »óÇ°ÀÇ °¹¼ö´Â " + sum + "°³ÀÔ´Ï´Ù.");
+		System.out.println("ëª¨ë“  ìƒí’ˆì˜ ê°¯ìˆ˜ëŠ” " + sum + "ê°œì…ë‹ˆë‹¤.");
 		
 		sc.close();
 	}
